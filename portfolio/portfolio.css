@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    width: 100vw;
+    float: right;
+    border: 1px solid none;
+}
+
+.box ul li {
+    width: 300px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    transition: 1s;
+}
+
+
+.box ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.box ul li:hover{
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 5px;
+}
+
+
+.box ul li a:hover{
+    color: whitesmoke;
+}
